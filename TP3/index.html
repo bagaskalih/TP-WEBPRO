@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROFILE DIRI</title>
+  </head>
+  <body>
+    <h1>Profil Pribadi</h1>
+    <!-- Judul utama halaman -->
+    <div>
+      <!-- wrapper untuk bagian foto profil dan video -->
+      <table width="40%">
+        <!-- Membuat tabel untuk tujuan tata letak -->
+        <tr>
+          <!-- Mendefinisikan baris tabel -->
+          <th width="40%">Foto Profil</th>
+          <!-- Sel header tabel untuk foto profil -->
+          <th>Video Perkenalan</th>
+          <!-- Sel header tabel untuk video perkenalan -->
+        </tr>
+        <tr>
+          <td>
+            <!-- Sel data tabel untuk foto profil -->
+            <img src="foto.JPG" alt="Foto Profil" width="100%" />
+            <!-- Menyematkan gambar, dengan teks alt untuk aksesibilitas -->
+          </td>
+          <td>
+            <!-- Sel data tabel untuk video -->
+            <video controls width="100%">
+              <!-- Menyematkan pemutar video dengan kontrol -->
+              <source src="vid.mkv" type="video/mkv" />
+              <!-- Menentukan file sumber video -->
+            </video>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <!-- wrapper untuk bagian "Tentang Saya" -->
+      <h2>Tentang Saya</h2>
+      <!-- Sub judul untuk bagian "Tentang Saya" -->
+      <p>
+        <!-- Tag paragraf untuk teks deskripsi -->
+        Halo! Saya adalah seorang pengembang web antusias dengan passion di
+        bidang teknologi dan desain kreatif
+      </p>
+    </div>
+    <div>
+      <!-- wrapper untuk bagian "Keterampilan" -->
+      <h2>Keterampilan</h2>
+      <!-- Sub judul untuk bagian "Keterampilan" -->
+      <table>
+        <!-- Membuat tabel untuk daftar keterampilan -->
+        <tr>
+          <th>Keterampilan</th>
+          <!-- Header tabel untuk kolom "Keterampilan" -->
+          <th>Tingkat</th>
+          <!-- Header tabel untuk kolom "Tingkat" -->
+        </tr>
+        <tr>
+          <td>HTML/CSS</td>
+          <!-- Data tabel untuk keterampilan -->
+          <td>Mahir</td>
+          <!-- Data tabel untuk tingkat keterampilan -->
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Menengah</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Pemula</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <!-- wrapper untuk bagian "Hubungi Saya" -->
+      <h2>Hubungi Saya</h2>
+      <!-- Sub judul untuk bagian "Hubungi Saya" -->
+      <form action="">
+        <!-- Membuat formulir untuk input pengguna, atribut action kosong -->
+        <div>
+          <!-- wrapper untuk setiap bidang formulir -->
+          <label for="Name">Name: </label>
+          <!-- Label untuk bidang input nama -->
+          <input type="text" name="Name" id="Name" />
+          <!-- Bidang input teks untuk nama -->
+        </div>
+        <div>
+          <label for="Email">Email: </label>
+          <!-- Label untuk bidang input email -->
+          <input type="text" name="Email" id="Email" />
+          <!-- Bidang input teks untuk email -->
+        </div>
+        <div>
+          <label for="Pesan">Pesan: </label><br />
+          <!-- Label untuk area teks pesan -->
+          <textarea name="Pesan" id="Pesan" cols="22" rows="3"></textarea>
+          <!-- Input teks multi-baris untuk pesan -->
+        </div>
+      </form>
+    </div>
+    <div>
+      <!-- wrapper untuk bagian "Media Sosial" -->
+      <h3>Media Sosial:</h3>
+      <!-- Sub judul untuk bagian "Media Sosial" -->
+      <table>
+        <!-- Membuat tabel untuk tautan media sosial -->
+        <tr>
+          <td>
+            <!-- Sel tunggal berisi semua tautan media sosial -->
+            <a href="">LinkedIn</a> | <a href="">GitHub</a> |
+            <!-- Hyperlink untuk profil media sosial -->
+            <a href="">Twitter</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
