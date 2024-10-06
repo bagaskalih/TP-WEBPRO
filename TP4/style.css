@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-image: url("wallpaper1.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-wrapper {
+  background-color: #ffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 10px;
+  border: 3px solid white;
+  border-bottom: 3px solid #ddd;
+  font-size: 16px;
+  width: 250px;
+  outline: none;
+}
+
+input:hover {
+  border-bottom-color: #022c9f;
+}
+
+input:focus {
+  background-color: #e6c200;
+  border: 3px solid black;
+}
+
+button {
+  padding: 10px;
+  background-color: #ffd600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #022c9f;
+}
